@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def badge_maker(name)
 p "Hello, my name is #{name}."
   end
@@ -24,3 +25,28 @@ def printer(attendees)
     puts assignment
   end
 end  
+=======
+def conference_badges
+
+end
+
+def badge_maker
+
+end
+
+def batch_badge_creator
+
+end
+
+def assign_rooms(attendees)
+attendees
+room_assignments = 0
+room_assignments += 1
+attendees.each{|attendees| puts "Hello, #{attendees}! You'll be assigned to room #{room_assignments}!" room_assignments += 1}
+
+end
+
+def printer
+
+end
+>>>>>>> 2bf404323b09711f66976bee0e5498487583bace
